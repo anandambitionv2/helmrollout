@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: rollouts-demo
-        image: acrargotest.azurecr.io/frontend:latest
+        image: acrargotest.azurecr.io/frontend:2173
         imagePullPolicy: Always
       
   strategy:
